@@ -32,8 +32,8 @@
     _isPaused=NO;
     
     NSString *str=[[NSBundle mainBundle] pathForResource:@"congo" ofType:@"mp4"];
-//        [_VRView loadFromUrl:[[NSURL alloc] initFileURLWithPath:str]];
-   [_VRView loadFromUrl:[NSURL URLWithString:@"http://111.202.11.133/xdispatch/dl.mojing.cn/xianchang/160524/1464090811_37_3840HD.mp4"]];
+        [_VRView loadFromUrl:[[NSURL alloc] initFileURLWithPath:str]];
+//   [_VRView loadFromUrl:[NSURL URLWithString:@"http://111.202.11.133/xdispatch/dl.mojing.cn/xianchang/160524/1464090811_37_3840HD.mp4"]];
 }
 
 - (void)widgetViewDidTap:(GVRWidgetView *)widgetView {
